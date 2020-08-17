@@ -1,6 +1,8 @@
 {
   "compilerOptions": {
-    "target": "es6"
+    "target": "es6",
+    "declaration": true,
+    "strict": true
   },
   "files": ["dogma.ts"]
 }

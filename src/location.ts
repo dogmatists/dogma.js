@@ -2,14 +2,12 @@
 
 /// <reference path="latitude.ts"/>
 /// <reference path="longitude.ts"/>
-namespace Dogma {
-  export class Location {
-    public readonly latitude: Latitude;
-    public readonly longitude: Longitude;
+export class Location {
+  public readonly latitude: Latitude;
+  public readonly longitude: Longitude;
 
-    public constructor(latitude: number, longitude: number) {
-      this.latitude = new Latitude(latitude);
-      this.longitude = new Longitude(longitude);
-    }
+  public constructor(latitude: number, longitude: number) {
+    this.latitude = new Latitude(latitude);
+    this.longitude = new Longitude(longitude);
   }
 }
